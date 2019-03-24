@@ -66,7 +66,7 @@ jQuery('document').ready(function(){
 	});
 	jQuery('#equal').on('click', function(){		
 		num2=jQuery('#str-res').val();
-		if (pltrigger==1) {res=parseInt(num1)+parseInt(num2);}
+		if (pltrigger==1) {res=parseFloat(num1)+parseFloat(num2);}
 		if (mntrigger==1) {res=num1-num2;}
 		if (dvtrigger==1) {res=num1/num2;}
 		if (tmtrigger==1) {res=num1*num2;}
