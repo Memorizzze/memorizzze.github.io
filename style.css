@@ -1,0 +1,14 @@
+.center-block{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#future-project{
+	text-align: center;
+	font-size: 50px;
+}
+
+.overlay:hover{	
+	transform: scale(1.04);
+}
